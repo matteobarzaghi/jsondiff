@@ -1,0 +1,2 @@
+# jsondiff
+ Python script that compares two JSON files using the jsondiff module. The script:  - Loads two JSON files (old_220.json and new_343.json) - Computes the diff between them using jsondiff.diff - Pretty-prints the diff output to the console with pprint - Converts all dictionary keys to strings to ensure proper JSON serialization - Saves the formatted diff to a file (diff_output.txt)  These changes make it easier to inspect large JSON diffs and facilitate further debugging or review.
